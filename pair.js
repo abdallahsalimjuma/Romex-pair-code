@@ -76,21 +76,7 @@ router.get('/', async (req, res) => {
                     await GlobalTechInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await GlobalTechInc.sendMessage(userJid, { text: '*Hello there ROMEK-XD-V2 User! 👋🏻*,
-
-'> Do not share your session id with anyone. 🚫☣',
-
- '*Thanks for using ROMEK-XD-V2* 💙',
-
-'> 🔰 Join WhatsApp Channel :-🔰',
- 
- '🛸https://whatsapp.com channel/0029VakaPzeD38CV78dbGf0e 🛸'
-
- 'Dont forget to fork the repo ⬇',
-
-'https://github.com/ROMEKTRICKS/ROMEK-XD-V2',
-
-'> *© Powered BY ROMEK-XD-V2 🐼*'});
+                    await GlobalTechInc.sendMessage(userJid, { text: '*Hello there ROMEK-XD-V2 User! 👋🏻* \n\n> Do not share your session id with anyone.\n\n *Thanks for using ROMEK-XD-V2🏆* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e\n\n Dont forget to give star \ud83c\udf1f to repo ⬇️\n\nhttps://github.com/ROMEKTRICKS/ROMEK-XD-V2' });
 
                     // Clean up session after use
                     await delay(100);
