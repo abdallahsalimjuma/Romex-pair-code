@@ -11,73 +11,92 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      background-color: black; /* Set the background color to black */
+      background-color: #121212; /* Dark background for contrast */
+      font-family: 'Roboto', sans-serif;
     }
 
     .btn {
-      --color: #00A97F;
-      --color2: rgb(10, 25, 30);
-      width: 200px; /* Set a fixed width for the buttons */
-      padding: 0.8em 1.75em;
+      width: 250px;
+      padding: 1em 2em;
       background-color: transparent;
-      border-radius: 6px;
-      border: .3px solid var(--color);
-      transition: .5s;
+      border-radius: 12px;
+      color: white; /* Text color is white by default */
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
       position: relative;
       overflow: hidden;
-      cursor: pointer;
-      z-index: 1;
-      font-weight: 300;
-      font-size: 17px;
-      font-family: 'Roboto', 'Segoe UI', sans-serif;
-      text-transform: uppercase;
-      color: var(--color);
-      margin-bottom: 10px; /* Add margin to separate buttons */
+      transition: all 0.3s ease-in-out;
+      margin-bottom: 20px; /* Space between buttons */
+      border: 2px solid; /* Border will be dynamic */
     }
 
-    .btn::after, .btn::before {
+    /* Button colors */
+    .btn.pair {
+      border-color: #00FFFF; /* Neon Cyan */
+    }
+    .btn.github {
+      border-color: #FF00FF; /* Neon Magenta */
+    }
+    .btn.whatsapp {
+      border-color: #32CD32; /* Neon Green */
+    }
+    .btn.contact {
+      border-color: #FFFF00; /* Neon Yellow */
+    }
+    .btn.about {
+      border-color: #FF4500; /* Neon Orange */
+    }
+
+    .btn::before,
+    .btn::after {
       content: '';
       display: block;
-      height: 100%;
-      width: 100%;
-      transform: skew(90deg) translate(-50%, -50%);
       position: absolute;
-      inset: 50%;
-      left: 25%;
-      z-index: -1;
-      transition: .5s ease-out;
-      background-color: var(--color);
+      top: 50%;
+      left: 50%;
+      width: 300%;
+      height: 300%;
+      background-color: inherit; /* Inherit the button color */
+      transition: all 0.3s ease-in-out;
+      transform: translate(-50%, -50%) scale(0);
+      border-radius: 50%;
     }
 
     .btn::before {
-      top: -50%;
-      left: -25%;
-      transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+      z-index: -1;
+      opacity: 0.4;
     }
 
     .btn:hover::before {
-      transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-    }
-
-    .btn:hover::after {
-      transform: skew(45deg) translate(-50%, -50%);
+      transform: translate(-50%, -50%) scale(1);
     }
 
     .btn:hover {
-      color: var(--color2);
+      color: #121212;
+      background-color: inherit; /* Inherit the button color */
     }
 
     .btn:active {
-      filter: brightness(.7);
-      transform: scale(.98);
+      transform: scale(0.98);
+      filter: brightness(0.7);
     }
+
+    .btn:hover::after {
+      transform: translate(-50%, -50%) scale(1);
+    }
+
   </style>
 </head>
 <body>
 
-  <button onclick="window.open(`/pair`)" class="btn">pair code</button>
-  <button onclick="window.open(`https://github.com/JawadYTX/KHAN-XMD`)" class="btn">github</button>
-  <button onclick="window.open(`https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j`)" class="btn">whatsapp</button>
+  <button onclick="window.open(`/pair`)" class="btn pair">Pair Code</button>
+  <button onclick="window.open(`https://github.com/ROMEKTRICKS/ROMEK-XD-V2`)" class="btn github">ROMEK-XD-V2-FORK BOT</button>
+  <button onclick="window.open(`https://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e`)" class="btn whatsapp">WHATSAPP-CHANNEL</button>
+  <button onclick="window.open(`https://romek-xd.vercel.app/`)" class="btn contact">ROMEK-XD-SITE</button>
+  <button onclick="window.open(`https://youtube.com/@ROMEK-XD9`)" class="btn about">YOUTUBE-CHANNEL</button>
+    <button onclick="window.open(`https://t.me/ROMEKTRICKS`)" class="btn about">TELEGRAM-CHANNEL</button>
 
 </body>
 </html>
