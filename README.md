@@ -1,1 +1,45 @@
-**WEB-PAIR SESSION ID GENERATOR ROMEK-XD-V2**
+
+<div align="center" style="border: 4px solid #3F00FF; padding: 20px; border-radius: 15px; background: linear-gradient(to bottom, #f0f0ff, #e6e6fa); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);">
+  <p align="center">
+
+  </p>  <div align="center">
+
+  </div>
+</div>
+---
+
+<div align="center" style="margin-top: 20px;">
+  <img src="https://img.shields.io/github/forks/ROMEKTRICKS/ROMEK-XD-v2?label=Forks&style=social" alt="Forks" style="margin: 0 5px;">
+  <img src="https://img.shields.io/github/stars/ROMEKTRICKS/ROMEK-XD-V2?style=social" alt="Stars" style="margin: 0 5px;">
+  <a href="https://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e" target="_blank">
+    <img src="https://img.shields.io/badge/💬%20Join%20WhatsApp%20Channel-green?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp Channel" style="margin: 10px 0;">
+  </a>
+</div>
+---
+
+<div align="center" style="background: #f0f8ff; padding: 20px; border: 3px dashed #3F00FF; border-radius: 10px; margin: 20px 0; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+  <h2 style="color: #3F00FF;">🚀 Deployment Steps</h2>  <h3>1️⃣ Fork This Repository</h3>
+  <a href="https://github.com/ROMEKTRICKS/ROMEK-XD-V2/fork" target="_blank">
+    <img alt="Fork Repo" src="https://img.shields.io/badge/🍴%20FORK%20THIS%20REPO-black?style=for-the-badge&logo=github&logoColor=white" width="300">
+  </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>2️⃣ Deploy Using Session ID (Pair Code Login)</h3>
+  <a href="https://moral-nert-romektricks-a02cb369.koyeb.app/?" target="_blank">
+    <img alt="Pair Code Login" src="https://img.shields.io/badge/🔑%20PAIR%20CODE%20LOGIN-%2300BFFF?style=for-the-badge&logo=link&logoColor=white" width="300">
+  </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>3️⃣ Deployment Options</h3>  <h4>Deploy to Koyeb</h4>
+  <a href="https://app.koyeb.com/deploy?name=romek-xd-v2&repository=ROMEKTRICKS%2FROMEK-XD-V2&branch=main&builder=dockerfile&instance_type=free&env%5BSESSION_ID%5D=&env%5BAUTO_READ_STATUS%5D=true" target="_blank">
+    <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
+  </a>  <h4>Deploy to Render</h4>
+  <a href="https://dashboard.render.com/" target="_blank">
+    <img src="https://telegra.ph/file/c15e952f017c10e12f431.jpg" alt="Deploy to Render" width="150" style="border-radius: 8px;">
+  </a>  <h4>Deploy to Heroku</h4>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/ROMEKTRICKS/ROMEK-XD-V2" target="_blank">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
+  </a>
+</div>
+---
+
+<div align="center" style="margin-top: 20px;">
+  <a href="https://github.com/ROMEKTRICKS/">
+    <img src="https://i.ibb.co/FsmcYzg/ROMEK-XD-V2.jpg" alt="Romek XD Logo" width="100" style="border: 2px solid #FF4500; border-radius: 50%; padding: 5px;">
+  </a>
+</div>
+---
