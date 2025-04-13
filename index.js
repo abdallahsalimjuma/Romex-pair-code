@@ -13,8 +13,8 @@
                 
 
 
-// * Project name - ROMEK-XD-V2-PAIR-CODE
-// * Creator ROMEK-XD
+// * Project name - DRAXEN-Ai-PAIR-CODE
+// * Creator DRAXEN
 
 
 
